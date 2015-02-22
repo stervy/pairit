@@ -536,6 +536,7 @@ input:focus {
 .footer-left {
 	float: left;
 	padding: 1.85em 1em;
+	color:white;
 }
 .copy p{
 	color:#00ABC5;
