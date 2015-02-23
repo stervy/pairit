@@ -38,6 +38,7 @@ body{
 .wrap{
 	width:60%;
 	margin:0 auto;
+	padding-bottom:3em;
 }
 .content
 {
@@ -401,17 +402,17 @@ input:focus {
 /*---//End-wrap-----*/
 /***********/
 .main {
-	margin-top: 6em;
+	margin-top: 0;
 }
 .main_left
 {
 	float:left;
 	width:45%;
-	margin-top: 5em;
+	margin-top: 2em;
 }
 .main_left h2{
 	color:#fff;
-	font-size: 3em;
+	font-size: 2.5em;
 	font-weight:bold;
 	text-shadow: 0px 0px 1px #FFF;
 }
@@ -457,7 +458,7 @@ input:focus {
 	-moz-border-radius: 5px;
 	-o-border-radius: 5px;
 	background: #00ABC5;
-	padding: 13px 40px;
+	padding: 13px 40px 13px 30px;
 	border: none;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
@@ -513,7 +514,7 @@ input:focus {
 	margin-right:0px;
 	border-right:0;
 }
-.top-grid  h3 a{
+.top-grids  h3 a{
 	font-size: 1.1em;
 	color: #fff;
 	padding:1.5em 0 0.5em 0;
@@ -1205,7 +1206,7 @@ p.para1 {
 	background-size: 100%;
 	}
 	.main_right {
-	width: 38%;
+	width: 45%;
 	}
 }
 @media only screen and (max-width:1280px)
@@ -1219,10 +1220,10 @@ p.para1 {
 	background-size: 100%;
 	}
 	.main_right {
-	width: 38%;
+	width: 50%;
 	}
 	.main_left h2 {
-	font-size: 2.5em;
+	font-size: 2.2em;
 	}
 }
 @media only screen and (max-width:1024px)
@@ -1238,10 +1239,10 @@ p.para1 {
 	height: 398px;
 	}
 	.main_left {
-	margin-top: 4em;
+	margin-top: 1em;
 	}
 	.main_left h2 {
-	font-size: 2.3em;
+	font-size: 2em;
 	}
 	.main_left p {
 	font-size: 0.95em;
@@ -1255,7 +1256,7 @@ p.para1 {
 	font-size: 17px;
 	}
 	.sign_up a {
-	padding: 10px 35px;
+	padding: 10px 35px 10px 10px;
 	}
 	.blog_left {
 	width: 60%;
@@ -1311,7 +1312,7 @@ p.para1 {
 	.main_left {
 	float: none;
 	width: 100%;
-	margin-top: 4em;
+	margin-top: 1em;
 	text-align: center;
 	}
 	.main_right {
@@ -1391,7 +1392,7 @@ p.para1 {
 	left: 40px;
 	}
 	.main_left h2 {
-	font-size: 2em;
+	font-size: 1.7em;
 	}
 	.main {
 	margin-top: 3em;
@@ -1437,7 +1438,7 @@ p.para1 {
 	font-size: 0.8em;
 	}
 	.main_left h2 {
-	font-size: 1.5em;
+	font-size: 1.25em;
 	}
 	.learn {
 	float: none;
@@ -1462,7 +1463,7 @@ p.para1 {
 	background: #00ABC5;
 	padding: 2em 0em 2em 0em;
 	}
-	.top-grid h3 a {
+	.top-grids h3 a {
 	padding: 0.5em 0 0.5em 0;
 	}
 	.top-grid p {
@@ -1527,7 +1528,7 @@ p.para1 {
 	background: url(../images/arrow_btn1.png) no-repeat 194px 6px;
 	}
 	.main_left {
-	margin-top: 2.5em;
+	margin-top: .5em;
 	}
 	.main {
 	margin-top: 0em;
@@ -1537,7 +1538,7 @@ p.para1 {
 	height: 245px;
 	margin: 0 auto;
 	}
-	.top-grid h3 a {
+	.top-grids h3 a {
 	font-size: 1em;
 	}
 	.section-title h3 {
